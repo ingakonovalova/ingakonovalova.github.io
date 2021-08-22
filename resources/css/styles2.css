@@ -1,0 +1,14 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+nav h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.jumbotron {
+    background-size: cover;
+    background: url('../images/pexels-henry-&-co-1939485.jpg');
+    background-position: center top;
+}
