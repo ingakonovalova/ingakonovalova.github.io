@@ -2,8 +2,11 @@
   "name": "ingakonovalova.github.io",
   "version": "1.0.0",
   "description": "This web page was created as my own initiative to gather information about me and all the future projects.",
+  "homepage": "https://ingakonovalova.github.io/",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -12,11 +15,14 @@
   "author": "Inga Konovalova",
   "license": "ISC",
   "dependencies": {
+    "install": "^0.13.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
     "react-router-dom": "6.10.0",
     "react-scripts": "5.0.1",
-    "sass": "1.60.0"
+    "react-scroll": "^1.8.9",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "browserslist": {
     "production": [
@@ -29,5 +35,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "gh-pages": "^5.0.0",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.1"
   }
 }
