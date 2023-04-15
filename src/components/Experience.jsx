@@ -8,7 +8,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 function Experience() {
   return (
-    <div name="experience" className="w-full h-screen bg-[#0a192f]">
+    <div name="experience" className="w-full flex flex-col justify-center h-full bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
@@ -19,8 +19,8 @@ function Experience() {
           </p>
         </div>
 
-        <div className="p-4">
-          <VerticalTimeline animate={true} lineColor="#D1D5DB">
+        <div>
+          <VerticalTimeline animate={true} lineColor="#D1D5DB" className="-z-60">
             <VerticalTimelineElement
               className="vertical-timeline-element--education"
               iconStyle={{ background: "#000", color: "#fff" }}
