@@ -1,15 +1,13 @@
 # Portfolio Page
 # General info
-This web page was created as my own initiative to gather information about me and all the future projects. 
+This web page was created as my own initiative to gather information about me and my experience.  
 
 Live page can be seen here: https://ingakonovalova.github.io/
 
 # Technologies
-* HTML
-* CSS
-* Javascript
-* Bootstrap 4.2.1
-* EmailJS
+* React (+ react-icons, react-vertical-timeline-component libraries)
+* Tailwind CSS
+
 # Setup
 To run this project:
 1. Clone repository
