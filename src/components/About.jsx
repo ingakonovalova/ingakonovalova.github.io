@@ -14,20 +14,20 @@ function About() {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>Hi. I'm Inga, nice to meet you. Please take a look around.</p>
+            <p>Nice to see you here. Please take a look around.</p>
           </div>
           <div>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              I am hard-working full-stack software engineer with almost two years of
+              experience in software development. Familiar with building
+              front-end solutions with React based on Figma designs, backend
+              logic with Node.js and writing tests in Jest. In addition to that,
+              have experience with microservices that produce and consume Kafka
+              events. Motivated to do high-quality work and grow professionally
+              by finding new ways to get knowledge myself or learning from my
+              colleagues. Always ready to collaborate as well as work
+              independently. Valuable addition to the teams due to existing QA
+              and Support Engineering background.
             </p>
           </div>
         </div>
