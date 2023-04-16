@@ -1,6 +1,6 @@
 # Portfolio Page
 # General info
-This web page was created as my own initiative to gather information about me and all the future projects. 
+This web page was created as my own initiative to gather information about me and my experience.  
 
 Live page can be seen here: https://ingakonovalova.github.io/
 
